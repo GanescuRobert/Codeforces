@@ -18,7 +18,7 @@ void dfs(int node, int& size) {
     }
 }
 
-int main() {
+int main(){
     ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 
     int n, m; cin >> n >> m;
@@ -31,7 +31,7 @@ int main() {
         adj[a].emplace_back(b);
         adj[b].emplace_back(a);
     }
-
+    
     //number of pacifist players
     int pacifists = 0;
     for (int i = 1; i <= n; i++)
@@ -43,19 +43,19 @@ int main() {
     //in case their number is odd, Team1 start with an extra player.
     if (pacifists % 2)
         team1++;
-
+    
     //number of elementary chains of players
     for (int i = 1; i <= n; i++) {
         int size = 0;
-        if (!vis[i] && adj[i].size() == 1) {
+        if (!vis[i]&&adj[i].size()==1) {
             dfs(i, size);
             if (size % 2) {
                 team1 < team2 ? team1++ : team2++;
             }
         }
-
+       
     }
-
+    
     // number of elementary cycle
     for (int i = 1; i <= n; i++) {
         int size = 0;
