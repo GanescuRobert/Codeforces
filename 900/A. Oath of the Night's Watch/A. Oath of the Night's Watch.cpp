@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 #define ull unsigned long long
+//https://codeforces.com/contest/768/problem/A
 int main()
 {
 	ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// https://codeforces.com/contest/556/problem/A
 long long abs(long long& T) {
     if (T < 0)
         T = -T;

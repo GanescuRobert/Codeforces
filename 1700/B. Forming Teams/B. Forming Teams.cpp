@@ -5,7 +5,7 @@ using namespace std;
 
 vector<int> adj[100];
 bool vis[100];
-
+//https://codeforces.com/contest/216/problem/B
 void dfs(int node, int& size) {
     if (vis[node]) {
         return;

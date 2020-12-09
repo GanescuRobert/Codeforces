@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+//https://codeforces.com/contest/1409/problem/A
 int main() {
 	long long from, to;
 	int qCases;

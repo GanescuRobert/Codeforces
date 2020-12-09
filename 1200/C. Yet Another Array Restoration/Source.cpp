@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//https://codeforces.com/contest/1409/problem/C
 int main() {
 	int qCases;
 	cin >> qCases;

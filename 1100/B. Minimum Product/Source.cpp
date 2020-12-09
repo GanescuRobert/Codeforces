@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+//https://codeforces.com/contest/1409/problem/B
 long long ans(long long a, long long b, long long x, long long y, long long n) {
 	if (a - n > x) {
 		a -= n;

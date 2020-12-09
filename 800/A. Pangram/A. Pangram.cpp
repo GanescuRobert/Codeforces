@@ -3,7 +3,7 @@
 #include <string>
 #include <set>
 using namespace std;
-
+//https://codeforces.com/contest/520/problem/A
 int main()
 {
     ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
